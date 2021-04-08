@@ -4,128 +4,202 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Photography Site</title>
+    <title>myMusic</title>
   </head>
   <body>
-    <main>
-      <!-- Landing Area -->
+    <!-- Showcase & Nav -->
+    <div id="showcase">
+      <header>
+        <nav class="cf">
+          <ul class="cf">
+            <li class="hide-on-small">
+              <a href="#showcase">myMusic™</a>
+            </li>
+            <li>
+              <a href="#showcase">Overview</a>
+            </li>
+            <li>
+              <a href="#music">Music</a>
+            </li>
+            <li>
+              <a href="#video">Video</a>
+            </li>
+            <li>
+              <a href="#gift-cards">Gift Cards</a>
+            </li>
+          </ul>
+          <a href="#" id="openup">myMusic™</a>
+        </nav>
+      </header>
+      <div class="section-main container">
+        <h1>myMysic.™</h1>
+        <h2>New music-streaming service has arrived</h2>
+        <p class="lead hide-on-small">
+          Here's how to take it with you on Android and iOS, complete with
+          offline listening
+        </p>
+      </div>
+    </div>
 
-      <div id="landing">
-        <div id="landing-text">
-          <div id="landing-text-inner">
-            <h1>Modern Photography</h1>
-            <h2>Beautiful Photography</h2>
-            <a href="#images" class="btn" id="view-work"> View Work </a>
+    <!-- Music Section -->
+    <section id="music" class="section">
+      <div class="container">
+        <h2 class="section-head">
+          <i class="fas fa-music"></i> myMusic™ & More
+        </h2>
+        <h3>60 million songs. No ads!</h3>
+        <p class="lead">
+          <span>myMusic</span> lets you download tracks for offline listening, a
+          handy option if you don't want to burn through your data plan while on
+          the go -- or you're stuck somewhere without Internet access. For
+          starters, you must add a song, album, or playlist to your library
+          before you can download it. From there, the easiest option is to tap
+          the Menu button (top-left corner), then choose Recently Added. You'll
+          see all the latest additions to your library, along with a download
+          button that will save them to local storage.
+        </p>
+        <a href="" class="btn btn-primary">Try Our App Now!</a>
+        <p class="text-light">This is the most intuitive process</p>
+        <img src="./images/mockup1.png" alt="" />
+      </div>
+    </section>
+    <!-- Video Section -->
+    <section id="video" class="section bg-light">
+      <div class="container">
+        <h3 class="video-title">myMusic™<br />Vid Collection Inc.</h3>
+
+        <p class="lead">
+          The myMusic™ Vid Collection Inc. is dedicated to the preservation,
+          digitization and archival of music video footage all around the world
+        </p>
+        <a href="#" class="btn btn-secondary">Record Your Vids!</a>
+        <img src="./images/mockup3.png" alt="" />
+      </div>
+    </section>
+
+    <!-- Entertainement Section -->
+    <section id="entertainement" class="section">
+      <div class="container">
+        <h3>Entertainment brings people together</h3>
+        <p class="lead">
+          Enjoy the videos and music you love, upload original content, and
+          share it all with friends, family, and the world on myMusic™
+        </p>
+      </div>
+    </section>
+
+    <!-- Gift Card Section -->
+
+    <section id="gift-cards" class="section bg-light">
+      <div class="container">
+        <div class="gift-cards">
+          <div>
+            <img src="./images/card.png" alt="" />
+          </div>
+          <div>
+            <div>
+              <h2>Gift Cards</h2>
+              <p>
+                Claim your Free Gift Card. First step, click on card you want to
+                get for free! Only Cards left! Recover my free key. Claim your
+                Free Gift Card. First step, click on card you want to get for
+                free! Only 2817 Cards left!
+                <br />
+              </p>
+
+              <p class="text-red">
+                "Superb" "The dinner cruise along the Seine was spectacular. And
+                we passed by the Eiffel Tower just in time to see the sparkling
+                lights." — Jules, France
+              </p>
+              <p class="text-orange">
+                "Loved every second and I'll do it once again if I'll ever have
+                the chance to repeat the experience" — Diana, Canada
+              </p>
+
+              <p class="text-green">
+                "Skipping the line saved us hours of waiting. I've always wanted
+                to soak up the Vatican's artwork. An amazing visit! " — Barry,
+                UK
+              </p>
+
+              <p>Enjoy the videos and music you love on myMusic™</p>
+              <hr />
+              <a href="#" class="text-secondary">
+                <i class="fas fa-chevron-right"></i> Redeem
+              </a>
+            </div>
           </div>
         </div>
-        <div id="landing-image"></div>
       </div>
+    </section>
 
-      <div id="images">
-        <div id="header">
-          <h2>Our Work</h2>
+    <!-- Footer -->
+    <div class="footer-dark">
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-3 item">
+              <h3>Services</h3>
+              <ul>
+                <li><a href="#">Web design</a></li>
+                <li><a href="#">Development</a></li>
+                <li><a href="#">Hosting</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3 item">
+              <h3>About</h3>
+              <ul>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 item text">
+              <h3>Company Name</h3>
+              <p>
+                Praesent sed lobortis mi. Suspendisse vel placerat ligula.
+                Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis
+                tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel
+                in justo.
+              </p>
+            </div>
+            <div class="col item social">
+              <a href="#"><i class="icon ion-social-facebook"></i></a
+              ><a href="#"><i class="icon ion-social-twitter"></i></a
+              ><a href="#"><i class="icon ion-social-snapchat"></i></a
+              ><a href="#"><i class="icon ion-social-instagram"></i></a>
+            </div>
+          </div>
+          <p class="copyright">Company Name © 2018</p>
         </div>
-
-        <a
-          href="https://source.unsplash.com/1600x900/?nature,oceans"
-          alt="Oceans"
-          title="Oceans"
-          ><img
-            src="https://source.unsplash.com/1600x900/?nature,oceans"
-            alt="Oceans"
-        /></a>
-        <div class="caption">
-          <h3>Oceans Shots</h3>
-          <p>
-            The ocean has fascinated humans ever since the first time we went
-            down to the shore.
-          </p>
-        </div>
-        <a
-          href="https://source.unsplash.com/1600x900/?photography"
-          alt="Photography"
-          title="Photography"
-          ><img
-            src="https://source.unsplash.com/1600x900/?photography"
-            alt="Photography"
-        /></a>
-        <div class="caption">
-          <h3>Photography Shots</h3>
-          <p>
-            For those beginning photography, exposure is key to capturing a
-            great image and take better photos.
-          </p>
-        </div>
-        <a
-          href="https://source.unsplash.com/1600x900/?people"
-          alt="People"
-          title="People"
-          ><img src="https://source.unsplash.com/weekly?people" alt="People"
-        /></a>
-        <div class="caption">
-          <h3>People Shots</h3>
-          <p>
-            We recognize that people are our greatest resource and the various
-            experiences for any team.
-          </p>
-        </div>
-        <a
-          href="https://source.unsplash.com/1600x900/?city"
-          alt="Cities"
-          title="Cities"
-          ><img src="https://source.unsplash.com/1600x900/?city" alt="Cities"
-        /></a>
-        <div class="caption">
-          <h3>Cities</h3>
-          <p>
-            With its enormous crowds and beutiful buildings brightly clad in
-            morning lights a city is fun.
-          </p>
-        </div>
-        <a
-          href="https://source.unsplash.com/1600x900/?nature,forest"
-          alt="Forest"
-          title="Forest"
-          ><img
-            src="https://source.unsplash.com/1600x900/?nature,forest"
-            alt="Forest"
-        /></a>
-        <div class="caption">
-          <h3>Forest Shots</h3>
-          <p>
-            The Most Beautiful Forests in the World will help you breathe a
-            little deeper.
-          </p>
-        </div>
-        <a
-          href="https://source.unsplash.com/1600x900/?cofee"
-          alt="Coffee"
-          title="Coffee"
-          ><img src="https://source.unsplash.com/1600x900/?coffee" alt="Coffee"
-        /></a>
-        <div class="caption">
-          <h3>Coffee Shots</h3>
-          <p>
-            For millions of people, coffee is an essential morning tradition
-            that fuels the start of their day.
-          </p>
-        </div>
-      </div>
-    </main>
-    <footer>
-      <h3 class="new-h3">Get In Touch</h3>
-      <p>Email or call us to set up a shooting session</p>
-      <p>Email: <strong>contact@photo.test</strong></p>
-      <p>Phone: <strong>(619) 555-555-555</strong></p>
-    </footer>
+      </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <!-- End Footer -->
 
     <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous"
     ></script>
-
     <script src="js/main.js"></script>
   </body>
 </html>
