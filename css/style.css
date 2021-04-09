@@ -35,6 +35,15 @@ a {
 .section-head {
   font-size: 2rem;
   margin: 0;
+  color: orangered;
+}
+
+.section-subtitle {
+  color: orangered;
+}
+
+.video-title {
+  color: orangered;
 }
 
 .section h3 {
@@ -57,7 +66,7 @@ section#entertainement {
 }
 
 .text-green {
-  color: var(--secondary-color);
+  color: #00c2ff;
 }
 
 .text-orange {
@@ -67,6 +76,14 @@ section#entertainement {
 /* Buttons */
 
 .btn-primary {
+  padding: 1rem;
+  color: #fff;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn-secondary {
   padding: 1rem;
   color: #fff;
   display: inline-block;
@@ -96,6 +113,7 @@ section#entertainement {
 
 #showcase h2 {
   font-size: 2rem;
+  color: orangered;
 }
 
 .video-title {
@@ -111,7 +129,7 @@ section#entertainement {
 }
 
 .lead {
-  font-size: 1.3rem;
+  font-size: 1em;
 }
 
 /* Text Colors */
@@ -163,15 +181,17 @@ nav a {
   text-align: center;
   text-decoration: none;
   padding: 10px 0;
-  color: #eee;
+  color: orangered;
   text-decoration: none;
 }
-nav li:hover {
-  background-color: #333;
-  color: orangered;
+nav li a:hover {
+  background-color: transparent;
+  color: #fff;
+  text-decoration: none;
 }
 nav a#openup {
   display: none;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 580px) {
@@ -193,6 +213,7 @@ nav a#openup {
 
   #showcase h2 {
     font-size: 1.5rem;
+    color: orangered;
   }
 
   section#entertainement {
@@ -226,8 +247,9 @@ nav a#openup {
     text-indent: 25px;
     background: #333;
   }
-  nav a:hover {
+  nav li a:hover {
     background: orangered;
+    text-decoration: none;
   }
   nav a#openup:after {
     content: "|||";
@@ -245,9 +267,10 @@ nav a#openup {
   }
   nav a#openup {
     display: block;
-    background-color: #333;
+    background-color: #fff;
     width: 100%;
     position: relative;
+    color: orangered;
   }
 }
 .cf:before,
